@@ -6,4 +6,4 @@ WORKDIR  /home/node/app
 
 USER node
 
-CMD [ "tail", "-f", "/dev/null" ]
+CMD [ "/home/node/app/.docker/command.sh" ]
